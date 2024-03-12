@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>jak & poy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+</head>
+<body>
+    <section>
+        <div class="items">
+            <div class="itemimg" onclick="play('rock')">
+                <img src="img/rock.png" alt="">
+                <p>Rock</p>
+            </div>
+            <div class="itemimg" onclick="play('paper')">
+                <img src="img/paper.png" alt="">
+                <p>Paper</p>
+            </div>
+            <div class="itemimg" onclick="play('scissors')">
+                <img src="img/scissors.png" alt="">
+                <p>Scissors</p>
+            </div>
+        </div>
+        <div class="main">
+            <div class="area computer">
+                <div id="wins">Wins: 0</div>
+                <h2>Player</h2>
+                <div id="playimg"><img src=""></div>
+            </div>
+            <div id="context"><p>Select Rock Scissors or Paper</p></div>
+            <div class="area player">
+                <h2>Computer</h2>
+                <div id="comimg"><img src=""></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
